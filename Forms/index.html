@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link href="style.css" rel="stylesheet" />
+    <script src="script.js"></script>
+    <meta charset="UTF-8" />
+    <meta
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+      name="viewport"
+    />
+    <meta content="ie=edge" http-equiv="X-UA-Compatible" />
+    <title>Forms Learn</title>
+  </head>
+  <body>
+    <h1>Forms with Aryan</h1>
+    <form action="submit.php" method="POST">
+      <div>
+        <label for="name">Name</label>
+        <input id="name" name="name" placeholder="Name" type="text" />
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input id="email" name="email" placeholder="Email" type="email" />
+      </div>
+      <div>
+        <label for="male">Male</label>
+        <input id="male" name="gender" type="radio" />
+        <label for="female">Female</label>
+        <input id="female" name="gender" type="radio" />
+      </div>
+      <div>
+        <!--        checkbox-->
+        <label for="subscribe">Subscribe to newsletter</label>
+        <input
+          id="subscribe"
+          name="subscribe"
+          type="checkbox"
+          value="subscribe"
+        />
+      </div>
+      <div>
+        <!--        textarea-->
+        <label for="message">Message</label>
+        <textarea
+          id="message"
+          name="message"
+          placeholder="Your message"
+        ></textarea>
+      </div>
+      <div>
+        <label for="Fruits"> Fruits</label>
+        <select id="Fruits" name="Fruits">
+          <option value="option1">Orange</option>
+          <option value="option2">Apple</option>
+          <option value="option3">Banana</option>
+          <option value="option4">Cherry</option>
+        </select>
+      </div>
+    </form>
+  </body>
+</html>
